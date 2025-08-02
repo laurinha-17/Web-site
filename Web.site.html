@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>Web.site.html
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o HTML</title>
+</head>
+<body>
+   <header>  
+      <h1><b> Conceitos basicos sobre HTML💻 </b></h1>
+   </header>
+   <hr/> 
+    <h2 id="inicio"><b>🔎Índices</b></h2>
+    <ul>
+       <li><a href="#Introdução ao html">Introdução ao HTML</a></li>
+       <li><a href="#O que são tags">O que são tags e seus atributos?</a></li>
+       <li><a href="#Principais tags para texto">Principais tags para texto </a></li>
+       <li><a href="#Lista ordenadas e não ordenadas">Lista ordenadas e não ordenadas</a></li>
+       <li><a href="#Sobre os Links">Sobre os Links</a></li>
+       <li><a href="#Formulário atráves do HTML">Formulário atráves do HTML</a></li>
+       <li><a href="#Estrutura do nosso <i>HTML</i>">Estrutura do nosso HTML </a></li>
+       <li><a href="#Sobre Cores">Sobre Cores</a></li>
+       <li><a href="#Tags para Mídia">Tags para Mídia</a></li>
+       <li><a href="#E as tabelas??">E as tabelas??</a></li>
+       <li><a href="#Tag tbody, thead e tfoot">Tag tbody, thead e tfoot</a></li>
+       <li><a href="#Dicas para a  tabela">Dicas para a  tabela</a></li>
+       <li><a href="#Sobre a semântica no HTML">Sobre a semântica no HTML</a></li>
+       <li><a href="#Tags novas do HTML 5">Tags novas do HTML 5</a></li>
+       <li><a href="#O que é o web scraping??">O que é o web scraping??</a></li>
+       <li><a href="# SEO"> SEO</a></li>
+       <li><a href="#Referências">Referências</a></li>
+      </ul>
+
+    <h2 id="Introdução ao html">Introdução ao HTML📖</h2>
+    <small><a href="#inicio">(Volta)</a></small> 
+
+     <p>HTML é uma <strong>linguagem de marcação</strong>, usada para estruturar uma página, é como um esqueleto da nossa página.Ela é formada com três elementos básicos,<strong> &lt;html&gt;, &lt;head&gt;, &lt;body&gt;</strong>.
+      Mas, para isso acontecer é preciso fazer uso de <i>tags, e atributos</i>. Você deve estar se perguntando, mais o que danado é isso?? Fica comigo que irei te mostrar como funciona.</p>
+
+    <h2 id="O que são tags">O que são <i>Tags</i> e seus <i>atributos</i>?🤔</h2>
+    <small><a href="#inicio">(Volta)</a></small>
+
+     <p> As <b>tags</b> são elementos essenciais que estruturam o conteúdo de uma página web, indicando ao navegador como exibir e interpretar cada parte do documento. </p>
+     <p>Já os <b>atributos</b> são propriedades que uma tag pode ter, para elaborar sua função, elas são mais globais. Todavia, existem uns atributos que são mais específicos de cada tag.</p>
+   
+     <h2 id="Principais tags para texto">Principais tags para texto &lt; ?? &gt;</h2>
+      <small><a href="#inicio">(Volta)</a></small>
+     <p>Elas servem para montar nosso texto, são elas:</p>
+     <ul>
+      <li>
+          <strong>&lt;h1 &gt;  até o &lt h6 &gt; </strong>: É definido o ta.
+         </li>
+      <li>   
+          <strong>&lt; p &gt; </strong> : Servi para atribuir paragráfos.
+      </li>
+      <li> 
+         <strong> &lt; Strong &gt; e &lt; b &gt;</strong> : Ambas deixa a letra em negrito, mas tem diferença na semântica.
+      </li>
+      <li> 
+         <strong> &lt; i &gt;</strong> : A letra fica em itálico.
+      </li>
+      <li>
+        <strong> &lt; u &gt;</strong> : Coloca uma underline (Uma linha embaixo da palavra).
+      </li>
+      <li>
+         <Strong> &lt; Mark &gt;</Strong> : É para fazer macarção no texto, igual um marca texto.
+      </li>
+      <li>
+      <strong> &lt; blockquote &gt;</strong> : Servi para fazer citação, explicação, pois da um espaço ao lado esquerdo.
+       </li>
+       <li>
+         <Strong> &lt; sup &gt;</Strong> : Deixa a cima da letra, ou número.
+       </li>
+       <li>
+         <strong> &lt; sub &gt;</strong> : Deixa mais abaixo da letra, ou número.
+       </li>
+     </ul>
+      <p> Uma observação importante é que, quando formos formatar um estilo de letra é bom ter mais de um estilo, pois muitos navegadores não possui um tipo específico.</p>
+
+      <h2 id="Lista ordenadas e não ordenadas">Listas ordenadas e não ordenadas📋</h2>
+        <small><a href="#inicio">(Volta)</a></small>
+      <p>Elas são padrões que os navegadores interpretam, sua estrutura é igual para ambas. A  diferença é que uma vai montar uma lista em ordem (em números) que é a<b> lista ordenada </b>, enquanto a <b>não ordenada </b>, vai ser em bolinhas, ou seja marcadores.</p>
+      <p> Para fucionar elas precisam de uma <i>tag filha</i> , que é uma tag, que vai dentro de outra tag.</p>
+      <b>&lt; ol &gt;</b> : É a tag da lista ordenada.<br>
+      <b>&lt; ul &gt;</b> : É a tag da lista não ordenada.<br>
+      <b>&lt; li &gt;</b> : É a tag filha das listas.
+      <h3>Exemplo da estrutura:</h3>
+      &lt; ol &gt; 
+           &lt; li &gt; &lt; /li &gt; 
+      &lt; /ol &gt;<br>
+      <p>Fica assim, obvío que na hora da estruturação vai muda, ficará mais bonto.</p>
+      
+      <h2 id="Sobre os Links"> Sobre os Links</h2>
+      < <small><a href="#inicio">(Volta)</a></small>
+      <p>Os links servem para nós navegar na internet, pois ao clicar em um link, ele vai direcionar para outra página. Entretanto temos atributos para que isso aconteça, porque se quisermos abrir na mesma página, podemos também. Sua tag é &lt; a &gt; , e seu  atributo é o <strong>target</strong>, que vem acompanhado de mais dois para a sua utilização(Self e blank). </p> 
+      <p><b>Importatnte:</b> tem um atributo que temos que colocar na tag <b>a</b>, que é o <b>href</b> para coloacar o endereço do link.</p> 
+      <p> Target=<b>"self"</b> :É o comportamento padrão, ele abri na mesma página.</p>
+      <p> Target= <b>"blank"</b> : Ele abri naturalmente em outra página.</p>
+
+    <h2 id="Formulário atráves do HTML">Formulário atráves do HTML😏</h2>
+     <small><a href="#inicio">(Volta)</a></small>
+    <p>
+      <i>Formulários são campos dentro do HTML, para inserir informaçôes.</i>
+   </p>
+    <p> Sua tag é a <b> &lt;form &gt;</b>, dentro dela podemos colocar :</p>
+    <p><b>name</b> > para definir um nome para nosso form, vai ajudar lá no javascript.</p>
+    <p><b>action</b> > Defini para onde os dados vão, é o endereço que colocamos do servidor, onde vai fica os dados.</p>
+    <p><b>method</b> > Nequele tem dois tipos, o <i>Get</i> que manda as informaçôes pela URL, e o <i>post</i> que coleta as informaçôes, sem aparecer para o usuário, em questão de segurança ele é melhor.</p>
+    <p><b>autocomplete</b> > Servi para caso você queira deixar salvo as informaçôes nos campos do form.</p>
+    <p><b>target</b> > Para abrir na mesma página ou não.</p>
+     
+    <h3>A tag  <i>&lt; input &gt;</i> e seus tipos</h3> 
+     <p> 
+      O input é um campo onde vamos inserir valores, e para isso, temos atributos para cada tipo.
+   </p>
+     <p>
+      <b>Text</b> : Gera um campo texto, no nosso form.
+     </p>
+     <p>
+      <b>Number</b> : É um campo de número, que podemos definir valores de limites <i>min</i> (mínimo) e <i>max</i> ( máxino), caso queira pular de 5 em 5 linhas temos o <i>step</i>.
+     </p>
+     <p>
+      <b>Button</b> : Botão para enviar, mas também pode depender da situação.
+     </p>
+     <p>
+      <b>Color</b> : Para adicionar um campo de cor, onde pode escolher.
+     </p>
+     <p>
+      <b> Range</b> : Defini valores mínimos e máximos.
+     </p>
+     <p>
+      <b>E-mail</b> : Para adicionar no campo.
+     </p>
+     <p>
+     <b>URL</b> : Nessa você pode adicionar um link de algo, vai depender do que se pede no form.
+     </p>
+     <p>
+      <b>Date</b> : Inserir a data.
+     </p>
+     <p>
+      <b>Month</b> : Para adicionar o mês.
+     </p>
+     <p>
+      <b>Week</b> : Para colocar o dia da semana, mas não é usado tanto.
+     </p>
+     <p> 
+      <b> Checkbox</b> : Servi para inserir valores boleanos, nesse podemos selecionar mais de duas opções.
+     </p>
+     <p>
+      <b>Radio</b> : Nesse caso é o oposto do Checkbox, nele só podemos selecionar uma opção.
+     </p>
+     <p>
+      <b>File</b> : Servi para enviar arquivos, pode 
+     </p>
+     <p>
+      <b>Search</b> : É um campo de busca dos arquivos que colocamos.
+     </p>
+
+    <h3>Tag button e seus tipos</h3>
+
+    <p>No <i>Button</i> existe outras tags para os tipos de funcionalidades, são elas :</p>
+    <p>
+      <b>Button</b>: Esse tipo criar um botão, mas ele não faz nada ao clicar.
+      </p>
+      <p>
+      <b>Reset</b>: Ele serve para limpa os campos que estão no form.
+      </p>
+      <p>
+         <b>Submit</b>: Ele vai enviar o formulário. Caso der enter no teclado, vai enviar sem ter terminado todos os campos.<br>
+         <b>OBS:</b> O <i>onsubmit</i> no form, válida se os campos estão corretos antes de enviar, para não evitar erro,ou algo que não faz sentido com o pedido.
+      </p>
+    <h3> Tag select</h3>
+    
+    <p>É uma lista pré-definida de valores que você quer, que o usuário escolha. É importante, pois servi para não colocar qualquer coisa.</p>
+    
+    <h3>Tag textarea </h3>
+    <p>É um campo texto que colocamos muitas informaçôes dentro do campo. Ele é parecido com o campo text, todavia ele abrage mais dados.
+       Dentro da tag, podemos definir linhas e colunas, para isso temos as tags:</p>
+    <p><b>rows:</b> Ela defini a quantidade de linhas</p>
+    <p><b>cols:</b> Defini as colunas.</p>
+    
+    <h2 id="Estrutura do nosso <i>HTML</i>">Estrutura do nosso <i>HTML</i>📄</h2>
+     <small><a href="#inicio">(Volta)</a></small>
+    <p>As tags coringas <i>div</i> e <i>span</i> . Usamos para estruturar alguma página web, servi para delimita um "space" e depois no CSS modifica ele.</p>
+    <p> 
+      <b>Div ></b> Faz a estruturação, cuida da estrutura que vai ficar o contéudo. Nela ocupa o espaço horizontal todo, essa é sua desvantagem.
+    </p>
+    <p>
+      <b>Span ></b> Não ocupa todo espaço, é menor e melhor para trabalhar no CSS.
+    </p>
+    <p>
+      <b>Fieldset :</b> Ela é mais estrutural, faz uma estrutura retangular que pode adicionar legenda também.
+   </p>
+   <p>
+     <b>Embed :</b> Essa é mais antiga. Servi para embedar (inserir um contéudo externo dentro do seu site), mas não é recomendada usar, pois já se tem uma tag específica.
+   </p>
+   <p>
+      <b>Iframe : </b> Esse é mais moderno, pode afeta a segurança do seu site se não tiver cuidado. Essa tag faz com que você possa abri uma janela na sua página com conteúdo de outra página.
+   </p>
+   
+   <h2 id="Sobre Cores"><i>Sobre Cores</i>❤️💚💙</h2>
+    <small><a href="#inicio">(Volta)</a></small>
+   <p>
+      Navegadores modernos aceitam mais de 140 nome de cores. Mas também tem navegadores que não suportam determinadas cores.
+      Outra forma de escolher cor é:
+   </p>
+    <p>
+      <i>RGB:</i> É a combinação de Red, Green, Blue.<br>
+      <i>HEX:</i> É a combinação de Red, Green, e Blue, mais descrito como Hexadecimal.<br>
+      <i>HSL:</i> É a matiz (hue), saturação (saturation), e iluminação (lighting). A matiz tem os valores, onde 0  é <b> Red</b>, 120 é  <b>Green</b> e 240 é <b>Blue</b>.<br>
+      <i>RGBA:</i> O mesmo que o RGB, só adicionando o canal <i>Alpha</i> (transparente).<br>
+      <i>HSLA:</i> O mesmo que o HSL, só adicionando o canal <i>Alpha</i> (transparente).
+    </p>
+
+    <h2 id="Tags para Mídia">Tags para Mídias🔊📸</h2>
+     <small><a href="#inicio">(Volta)</a></small>
+    <p>Estar relacionada a <i>aúdios</i> e <i>vídeos</i> para nossa página.
+    </p>
+    <p>
+      <b>&lt; img &gt;</b> Com essa tag, podemos adicionar o <u>src</u>, que é a fonte da sua  imagem ( arquivo local ou web). Na img, se utiliza 3 tipos diferentes que podemos colocar. Elas são:<br>
+      <b>gif :</b> não possui uma qualidade boa, pois ocupa muito espaço.<br>
+      <b>jpg :</b> Esse é utilizado  uma tecnologia que é usada para dimensionar as imagens, para fica com menos kbytes possível, ou seja em relação ao espaço que elas estão. Outro ponto é que ele perde muita resolução, e é um arquivo opaco.
+      É recomendado para galeria de foto. <br>
+      <b>pnj :</b> pode comprimir a imagem, e ganha mais  recursos. Mas é mais pesado que o <u>jpg</u>, pelo fato de você pode ter transparência. Esse é recomendado para usar em logotipo.<br>
+    </p>
+    <p>
+      <b>&lt; svg &gt;</b> : Independente do tamanho, não perde a resolução. Pode adicionar o <b>title</b> para colocar uma descrição.
+    </p>
+    <p>
+      <b>&lt; alt &gt;</b> : Essa servi para fazer uma descrição mais detalhada daquela imagem.
+    </p>
+    <p>
+      <b>&lt; audio &gt;</b> : Ela carrega os aúdios, mas para isso acontecer precisa da tag filha que é a <b> &lt; source scr &gt;</b> , para indicar o caminho, muitos casos uma música. Caso queira colocar botão basta adicionar um <strong> control</strong> dentro da tag.<br><br>
+      <strong>Obs:</strong> Muitos navegadores não suportam determinados arquivos, para isso escrevemos uma mensagem de aviso para o usuário como "Seu navegador não tem suporte para este aúdio", caso venha a ser o caso.
+    </p>
+    <p>
+      <b>&lt; video &gt;</b> : Para coloca vídeo na nossa página web, se quiser controle basta adicionar um <strong> control</strong> na tag. Sua tag filha é a <b> &lt; source scr</b>, para adicionar o endereço do vídeo, ou seja nosso arquivo de mídia.<br><br>
+      <strong>Importatnte</strong> : Adicionar a mensagem de aviso de suporte de mídia, pois caso o navegador não tenha suporte vai avisar para o cliente.
+    </p>
+    <p>
+    <b>&lt; track &gt;</b> : Aúxilia a <i><u> tag video</u></i>, ela define legendas e atráves do javascript pode definir capítulos (do ponto de início até o final). Nessa tag precisamos definir três coisas, vamos ver cada uma delas.
+    </p>
+      <p>
+        <b> 1)</b> O nosso <b>src</b> que é o caminho.<br>
+      </p>
+      <p>
+      <b> 2)</b> O <b> kind </b>, nesse tem vários aspectos a definir, o <i> captions</i>, <i> chapters</i>, <i> descriptions</i>, <i>metadata</i>, e <i> subtitle</i>.
+      </p>
+      <p>
+      <b>- Descriptions:</b> É bom para acessibilidade, ele permite que o leitor de tela , leia determinada imagem.
+    </p>
+    <p>
+      <b>- Subtitle:</b> São as falas quem aparecem descrevendo mais o vídeo. Ex: o nome de uma cidade que aparece no vídeo.
+    </p>
+    <p>
+      <b>- Chapters:</b> Esse funciona assim, você pega o vídeo e pica ele em pedacinho, diz que no minuto tal vai falar derteminada ação, já em outro minuto vai ser outra coisa.
+    </p>
+    <p>
+      <b>- Metadata:</b> São dados que podemos adicionar.
+    </p>
+    <p>
+      <b>- Captions:</b> São as legendas do vídeo.
+    </p> 
+    <p>
+      <b>3)</b> O nosso <i><b>srclang</b></i> para definir qual idioma queremos, ele vai aparecer para o usuário logo abaixo da legenda. Caso tenha mais de 1 idioma, e você que determinar um específico, é só colocar um <i>default</i> em captions.
+    </p>
+    <p>
+      <b>&lt; iframe &gt;</b> : É a evolução da <i>embad</i> , traz conteúdos externos para nosso site.<br>
+      Um exemplo é o YOUTUBE, você pode escolher um vídeo, depois compartilha e logo em seguida clica em incorporar, e jogar no seu código. Ele vai trazer o iframe todo, podendo visualizar de sua página.
+    </p>
+  <h2 id="E as tabelas??">E as tabelas??📝</h2>
+   <small><a href="#inicio">(Volta)</a></small>
+  <p>
+    <i>As tabelas são compostas por colunas na vertical, e linhas na horizontal, e o encontro entre linhas e colunas é chamado de célula. Sua tag é a <b> table</b> 
+    é onde tudo se inicia, mas só ela não faz nada sozinha, ela precisa de outras tags para funcionar. Veremos a seguir.</i>
+  </p>
+   <p>
+    <b> Border:</b> Usa para colocar bordas na tabela.<br>
+    <b> Width:</b> Servi para definir uma largura.<br>
+    <b>Aligh= "center":</b> Para centralizar a tabela no centro da tela.<br>
+    <b>Cellspacing:</b> Para definir o espaço entre as células.<br>
+    <b> Cellpadding:</b> É a distância da borda para o conteúdo.<br>
+    <b>Summary:</b> Coloca uma definição sobre a tabela explicando. Mas não exibi para o usuário, e sim para o leitor de tela que vai ler e compreender.
+   </p>
+   <p>
+    <strong> Tag tr : </strong> Significa table room, que é uma linha na tabela. Quando abri a <i>tr</i> , ele estar englobando todas as células que componhe aquela linha.
+   </p>
+   <p>
+    <strong> Tag td: </strong> Ela fica dentro da <i>tr</i>, ela é as colunas para compor a tabela.
+   </p>
+   <p>
+    <strong> Tag th: </strong> O <i>th</i> servi para indica a parte que é o <u>cabeçalho</u>. Logo ele autoformata nosso cabeçalho, se quisermos colocar uma descrição maior utiliza o <i>title.</i>
+   </p>
+
+    <h3>Acessibilidade:</h3> 
+    <p>Na acessibilidade isso tudo é ideal tanto para nosso leitor robô, quanto para pessoas com deficiência.
+
+    <h2 id="Tag tbody, thead e tfoot"> Tag tbody, thead e tfoot 🫨</h2>
+     <small><a href="#inicio">(Volta)</a></small>
+    <p>
+      <b>thead:</b> Para colocar nosso cabeçalho dentro.<br>
+      <b>tbody:</b> Colocamos nossas informaçôes dentro, os td, tr, mostrando que é o corpo da nossa tabela.<br>
+      <b>tfoot:</b> Servi para fazer nosso roda-pé.<br>
+      <b>caption:</b> Coloca a descrição na tabela.<br>
+      <b>OBS:</b> Caso não queira que a descrição não apareça para o usuário, use o <i>sumário</i> dentro da table. O sumário vai descrever o resumo do que se trata a tabela.
+    </p>
+    <h2 id="Dicas para a  tabela"> Dicas para a  tabela 😎</h2>
+     <small><a href="#inicio">(Volta)</a></small>
+    <p>
+      <i>Aqui já vai mexer com o CSS, para deixar mais com um toque.</i>
+    </p>
+    <p>
+     <b>Border:</b> Nela existe vários tipos para personalizar, temos <u>solid</u>, <u>dashed</u>, <u>dotted</u>.
+    </p>
+    <p>
+      → Para colocar a cor no roda-pé, utiliza o <b>style</b>, depois acrescentando: table tfoot td {} background-color:color.<br><br>
+      → Para mexer com o corpo, utilizado o <b>style</b>, depois escrevendo: table tbody tr: nth-child(even) td{color}. No <i>even</i>, ele pega tudo que é par.<br><br>
+      → Para deixa escuro ao passa o mouse, utiliza o <b>style</b>,depois:  table tbody tr : hover td{ background-color:color}. Se quiser mudar o cursor basta acrescentar : cursor:pointer;<br><br>
+      → Para mesclar uma célula, é no thead e colocar mais uma linha.<br><br>
+      → Para ocupa mais colunas, dentro do <b>th</b> usa o <b>colspan</b>, ele adicionar na horizontal. Para ser na vertical adiciona <b>rowspan</b>.
+    </p>
+    <h2 id="Sobre a semântica no HTML">Sobre a semântica no HTML 🤖</h2>
+     <small><a href="#inicio">(Volta)</a></small>
+     <p>
+      No <b><i>HTML semântico</i></b> diz que, seu HTML estar fazendo sentido para aquilo que esta proposto a fazer.<br>
+       O <b>HTML 5</b> trouxe tags para trazer mais significado para cada coisa específica, com seu objetivo. Com isso a div que usamos no HTML, não faz mais sentido utilizar, pois com o 5, temos as tags para cada coisa, com seus nomes. Não precisa colocar DIV em tudo.
+     </p>
+     <p>
+     ⟫ Tags que não utiliza mais no html 5, elas são: <i>basefont, big, center, font, striker, tt, frame, frameset, entre outras.</i> ⟪
+     </p>
+     <p>
+      • <b>Seu objetivo é :</b> a estruturação da página, seria como na construção de uma planta de uma casa.<br>
+      • <b>Acessibilidade :</b> Tem um site adaptável, falando como estruturar um HTML da forma correta para pessoas com deficiências.<br>
+      • <b>Aria :</b> <i>Accessible rich internet apptications</i>, são atributos colocados no HTML que não altera seu código, apenas muda a área de accessible.
+     </p>
+      
+     <h2 id="Tags novas do HTML 5"> Tags novas do HTML 5😯😌</h2>
+      <small><a href="#inicio">(Volta)</a></small>
+      <h3>→ Main, Header e Footer :</h3>
+       <p>
+        <strong>Header :</strong> Onde fica o cabeçalho da página.<br>
+        <strong> Main :</strong> Aqui fica o corpo da página. Ela não pode ser filha de header, footer, article.<br>
+        <strong> Footer :</strong> Esse cara é nosso roda-pé.<br>
+        </p>
+        <p>
+        <strong>Importante :</strong> a <b>main</b> é onde contém o assunto principal do site, os outros são estruturais.
+        Só pode ter 1 main  por página, também podemos colocar o header, footer, e article dentro da Main.
+       </p>
+
+       <h3>→ Aside, Section e  Nav :</h3>
+       <p>
+         <strong>Section :</strong> Ela não tem limites para quantas colocar, a section é uma busca por determinado objeto, é igual a div. 
+         Sua idea é ter seções relacionado ao conteúdo que você esta navegando.<br>
+         <strong>Aside :</strong> É um assunto que não tem haver com o assunto principal da página.
+         São assuntos familiares que podemos adicionar.<br>
+         <strong>Nav :</strong> Dentro dele vamos ter os links de navegações, pode ter vários Nav.
+         Caso queira colocar um link principal, pode adicionar ele no <i>header</i>. Para criar uma Nav, pode usar a lista não ordenada. 
+       </p>
+
+       <h3>→ Article, Blockquote e Q :</h3>
+       <p>
+        <strong>Article:</strong> É um artigo, de fato que vai colocar dentro, ele permite o alinhamento.
+        Quando coloca um article  dentro do outro, o interno estar relacionado ao externo. Para colocar data e hora utiliza o <b>time pubdate</b>.<br>
+        <strong>Blockquote:</strong> Para citação de algo, caso queira acrescentar o site que pesquisou, pode adicionar <b>cite</b> dentro da tag do blockquote.
+        Isso não aparece para o usuário, mas ao inspecionar terá o link, ou seja o indexador vai saber que não é próprio da página.<br>
+        <strong>Q:</strong> É também uma citação,todavia ela é mais pequena, e também ela não quebra linha. Pode colocar o <b>cite</b> para indicar de once foi ela.
+       </p>
+
+       <h3>→ Figure, Figcaption e Picture:</h3>
+       <p> 
+        <strong>Figure:</strong> É um container, igual uma div que você usa para colocar coisas dentro dela.
+        Ela vai delimitar um escopo de uma imagem, ilustrativa.<br>
+        <strong>Figcaption:</strong> Servi como uma descrição da imagem. Otímo para o robô, pois ele irá saber que quando indexar aquilo é uma <i>figure</i>, a imagem e a descrição<br>
+        <strong> Picture:</strong> É relacionada a o <i>figure</i> também, sua diferença é que você pode colocar multiplas fontes, para mesma imagem.<br>
+        Ela possui a <b>tag source</b>,para adiciona mais uma foto. Dentro dela vai também a <b>srcset="" media="( min-width:600px)"</b>, isso vai diminuir dependendo da tela. Assim facilita a vida do cidadão,  e fazendo ajustar várias versões da mesma imagem para diferentes dispositivos movéis.
+       </p>
+
+      <h2 id="O que é o  web scraping??">O que é  o web scraping??🤭</h2>
+       <small><a href="#inicio">(Volta)</a></small>
+      <p>
+        É a ação de uma aplicação entra no site, extrair informação e gravar elas. Um exemplo, é sites de comparação de preço.
+      </p>
+      <p>
+        <b>Bastreador</b> ( <b>crawler</b>- as vezes também chamado de "robô" ou indexador) é um termo genérico para qualquer programa usado para descobrir e examinar sites automaticamente, seguindo links entre páginas da web.
+      </p>
+      <p>
+        <b>Google Bot :</b> através de uma página o robô segue os links, ele vai visitando e ao mesmo tempo indexando os dados. 
+      </p>
+
+      <h3 id=" SEO"> SEO 🤨</h3>
+       <small><a href="#inicio">(Volta)</a></small>
+     <p>
+      <b>Search engine optimization :</b> Significa otimização para mecanismos de buscas, ideal para nosso site quando se trata para melhorar o desempenho e funcionamento.
+     </p>
+     <h3 id="Referências">Referências:🙂‍↔️</h3>
+      <small><a href="#inicio">(Volta)</a></small>
+     <ul>
+      <li><a href="https://www.w3schools.com/TAGS/default.asp" target="_blank">Tags do HTML</a></li>
+      <li><a href="https://www.w3.org/" target="_blank"> W3C</a></li>
+      <li><a href="https://www.w3schools.com/" target="_blank"> w3shools</a></li>
+       <li><a href="https://www.wda-association.org/accessibility-review?utm_source=google&utm_medium=cpc&utm_campaign=search_accessibility&utm_content=adgroupid_186845255648|creative_759380020703|device_c|loc_physical_ms_20099&utm_term=keyword_wcag%20accessibility|placement_&gad_source=1&gad_campaignid=22697361259&gbraid=0AAAAArCVnVh5Ivwv0CAERARuPBoYYsw_v&gclid=EAIaIQobChMI_7jdm-bqjgMV9EFIAB3xTgcLEAAYASAAEgK5Q_D_BwE" target="_blank"> WCAG (Web content acessibility guidelines)</a></li>
+       <li><a href="https://youtu.be/Fhy-5CtVkiM?si=rpBB6gCqmt2Uymc9" target="_blank"> Curso completo de HTML</a></li>
+        </ul>
+        <h3>Obrigada pela atenção, espero que te ajude com esse resumo aqui. Xerooo😊💙</h3>
+
+</body>
+</html>
